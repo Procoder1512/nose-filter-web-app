@@ -1,0 +1,39 @@
+h3
+{
+    font-size: 50px;
+    animation-name: example1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example1
+{
+    from {color:maroon;}
+    to {color:blue;}
+}
+
+.btn-success:hover
+{
+    background-color: red;
+}
+
+canvas
+{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example
+{
+    from {box-shadow: 1px 1px 100px yellow;}
+    to {box-shadow: 1px 1px 100px purple;}
+}
+
+h1{
+    color: red;
+}
+body{
+    text-align:center;
+    text-decoration: solid;
+}
